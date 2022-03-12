@@ -1,2 +1,27 @@
-# weather-app
-Please find the System task for Angular Position in below Statements and reach out us with task by Monday Morning ( 14-march-2022).   1) Implement Reactive Form for Signup with Validations with basic Details and save in any Temporary Storage.   2) Login into the Application by validating the Credentials using Temporary Storage.   3) Landing Page :          a) 2 Text Fields: Lat &amp; Lon and Submit Button Implement the Wether API to get the Temperature By Lat &amp; Long values when user click on Submit Button.         b) The Response need to save in the Data Table which exists in the Same Page with Edit &amp; Delete Buttons. The Values : Lat , Lon , Temp in Celsius , City , Country Name.         C) When we Click on Edit Button need to populate one Pop up with Lat &amp; Lon Values of Existing One.          d) If we modify the values and click on Submit Button , those changes need to reflect in the Datab Table.         e) If we click on delete button that record needs to be deleted from the data table.          API Name : https://api.openweathermap.org/data/2.5/weather         Query Params : lat, lon &amp; appid         App Id : ce4ce27a4b61d026b7da0c6be888c2ce
+# WeatherApp
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
